@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeClass;
  */
 
 /* 
-    Run testcase: path on folder include testng.xml
+    Run testcase: at path folder include testng.xml
     run cmd: mvn test -DsuiteXmlFile=testng.xml
 */
 
