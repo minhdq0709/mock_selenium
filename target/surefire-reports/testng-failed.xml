@@ -3,13 +3,13 @@
 <suite name="Failed suite [Selenium Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Search Tests(failed)" verbose="0">
     <classes>
-      <class name="Testcase.LoginTc">
+      <class name="Testcase.HomeBlazedTc">
         <methods>
           <include name="Testcase1"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Testcase.LoginTc -->
+      </class> <!-- Testcase.HomeBlazedTc -->
     </classes>
   </test> <!-- Search Tests(failed) -->
 </suite> <!-- Failed suite [Selenium Suite] -->

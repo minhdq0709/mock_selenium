@@ -1,8 +1,12 @@
 Base\DriverFactory.class
 Model\LoginModel.class
+Testcase\HomeBlazedTc.class
+Pages\HomeBlazedPage.class
 Base\BaseTestcase.class
 Testcase\LoginTc.class
 com\mycompany\mini_selenium\Mini_Selenium.class
+Model\HomeBlazedModel.class
 Pages\LoginPage.class
 Base\BaseTestcase$1.class
+DataTest\HomeBlazedDataTest.class
 DataTest\LoginData.class

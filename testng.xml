@@ -2,7 +2,7 @@
 <suite name="Selenium Suite">
     <test name="Search Tests">
         <classes>
-            <class name="Testcase.LoginTc"/>
+            <class name="Testcase.HomeBlazedTc"/>
         </classes>
     </test>
 </suite>
