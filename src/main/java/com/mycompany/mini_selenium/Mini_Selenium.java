@@ -6,7 +6,6 @@ package com.mycompany.mini_selenium;
 
 import Testcase.HomeBlazedTc;
 import Testcase.LoginTc;
-
 /**
  *
  * @author ADMIN

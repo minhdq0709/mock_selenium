@@ -12,8 +12,9 @@ import Model.LoginModel;
  */
 public class LoginData {
     public static LoginModel[] lstDataModel = {
-        new LoginModel("acb@gmail.com", "123"),
-        new LoginModel("nguyenvana@gmail.com", "123@"),
-        new LoginModel("lethib@gmail.com", "456!")
+        new LoginModel("test 123", "123"),
+        new LoginModel("NV01", "123"),
+        new LoginModel("NV01", "456!"),
+         new LoginModel("123", "123")
     };
 }

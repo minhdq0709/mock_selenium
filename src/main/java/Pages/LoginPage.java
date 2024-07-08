@@ -19,23 +19,32 @@ public class LoginPage {
 
     private final WebDriver driver;
     
-    @FindBy(id = "email")
-    private WebElement emailInput;
+    @FindBy(id = "exampleInputEmail")
+    private WebElement usernameInput;
     
-    @FindBy(id = "pass")
+    @FindBy(id = "exampleInputPassword")
     private WebElement passwordInput;
-
+    
+    @FindBy(xpath="/html/body/div/div/div/div/div/div/div[2]/div/div[2]")
+    private WebElement notify;
+    
+     @FindBy(xpath="/html/body/div/div/div/div/div/div/div[2]/div/form/input")
+    private WebElement buttonlogin;
+     
     public LoginPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
     public void EnterVal(LoginModel dataInput) {
-        emailInput.sendKeys(dataInput.getUsername());
+        usernameInput.sendKeys(dataInput.getUsername());
         passwordInput.sendKeys(dataInput.getPassword());
     }
 
     public void ClickButtonLogin() {
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+       buttonlogin.click();
+    }
+    public String Notification(){
+        return notify.getText();
     }
 }
