@@ -13,24 +13,31 @@ import org.testng.annotations.Test;
  *
  * @author ADMIN
  */
+// Hàm xử lý tất cả các testcase(main)
 public class LoginTc extends BaseTestcase {
-
+// Link trang muốn test 
     private final String urlPageLogin = "http://localhost:3000/login";
-
+// @Test để khai báo là tescase (ko chạy nếu ko có @test)
     @Test
+    // Exception: bỏ qua tc khi ctrinh crash
     public void Testcase1() throws Exception {
-        LoginPage loginPage = new LoginPage(super.getDriver());
+        // get Driver: để tất cả các tab mở trên 1 trình duyệt
+        LoginPage loginPage = new LoginPage(super.getDriver()); // khởi tạo 1 cái tab
+        // mở link trang test 
         super.gotoPage(this.urlPageLogin);
-        
+        // fill dữ liệu vào các ô input
         loginPage.EnterVal(LoginData.lstDataModel[0]);
+        // Thời gian chờ
         Thread.sleep(5000);
         loginPage.ClickButtonLogin();
+        // chờ page load xong
         super.waitPageSuccses();
         
         String notify = loginPage.Notification().replaceAll("[^a-zA-Z0-9]", "");
         String notifySource = "Tài kho?n không t?n t?i".replaceAll("[^a-zA-Z0-9]", "");
         
         try {
+            // In ra dữ liệu cần so sánh ( dữ liệu chuẩn)
             System.out.println("notify: " + notify);
             System.out.println("notifySource: " + notifySource);
             

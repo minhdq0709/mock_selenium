@@ -8,6 +8,7 @@ package Model;
  *
  * @author ADMIN
  */
+// Model chứa tất cả các input đầu vào (những cái có thể nhập data)
 public class LoginModel {
     private String username;
     private String password;

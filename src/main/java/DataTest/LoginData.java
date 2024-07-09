@@ -10,6 +10,7 @@ import Model.LoginModel;
  *
  * @author ADMIN
  */
+// chứa các data test
 public class LoginData {
     public static LoginModel[] lstDataModel = {
         new LoginModel("test 123", "123"),
