@@ -4,8 +4,8 @@
 
 package com.mycompany.mini_selenium;
 
-import Testcase.HomeBlazedTc;
-import Testcase.LoginTc;
+import Testcase.HomeTc;
+
 /**
  *
  * @author ADMIN
@@ -13,12 +13,9 @@ import Testcase.LoginTc;
 public class Mini_Selenium {
 
     public static void main(String[] args) throws Exception {
-        LoginTc loginTc = new LoginTc();
-        loginTc.setup();
-        loginTc.Testcase1();
-
-//        HomeBlazedTc home = new HomeBlazedTc();
-//        home.setup();
-//        home.Testcase1();
+        HomeTc homeTc = new HomeTc();
+        homeTc.setup();
+        homeTc.CallLogin();
+        homeTc.Testcase2();
     }
 }

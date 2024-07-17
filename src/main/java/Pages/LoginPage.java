@@ -29,8 +29,9 @@ public class LoginPage {
     @FindBy(xpath="/html/body/div/div/div/div/div/div/div[2]/div/div[2]")
     private WebElement notify;
     
-     @FindBy(xpath="/html/body/div/div/div/div/div/div/div[2]/div/form/input")
+    @FindBy(xpath="/html/body/div/div/div/div/div/div/div[2]/div/form/input")
     private WebElement buttonlogin;
+    
      //mặc định có WebDriver
     public LoginPage(WebDriver driver) {
         // Khởi tạo để quản lý input

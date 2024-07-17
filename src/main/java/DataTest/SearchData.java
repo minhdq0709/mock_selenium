@@ -5,17 +5,15 @@
 package DataTest;
 
 import Model.LoginModel;
+import Model.SearchModel;
 
 /**
  *
  * @author ADMIN
  */
-// chứa các data test
-public class LoginData {
-    public static LoginModel[] lstDataModel = {
-        new LoginModel("test 123", "123"),
-        new LoginModel("NV01", "123"),
-        new LoginModel("NV01", "456!"),
-        new LoginModel("123", "123")
+public class SearchData {
+   public static SearchModel[] lstDataModel = {
+        new SearchModel("HS20190101"),
+        new SearchModel("fghjkk")
     };
 }

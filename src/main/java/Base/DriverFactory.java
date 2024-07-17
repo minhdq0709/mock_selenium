@@ -12,13 +12,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * @author ADMIN
  */
 public class DriverFactory {
-    private WebDriver driver = null;
+    private static WebDriver driver = null;
     
     public WebDriver getDriver(int type) {
         switch(type) {
             case 1 -> {
                 System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver-win64\\chromedriver.exe");
-                this.driver = new ChromeDriver();
+                if (this.driver == null) {
+                    this.driver = new ChromeDriver();
+                }
+                
                 return driver;
             }
             default -> {
