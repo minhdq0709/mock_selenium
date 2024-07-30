@@ -61,7 +61,6 @@ public class HomeTc extends BaseTestcase {
         try {
             // In ra dữ liệu cần so sánh ( dữ liệu chuẩn)
             List<GVQLModel> lstData = homePage.GetDataTable();
-            int a = 0;
         } catch (AssertionError e) {
             System.out.println("Test failed: " + e.getMessage());
         }

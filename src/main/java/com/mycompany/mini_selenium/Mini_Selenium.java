@@ -4,7 +4,7 @@
 
 package com.mycompany.mini_selenium;
 
-import Testcase.HomeTc;
+import Testcase.CreateHSTc;
 
 /**
  *
@@ -13,9 +13,9 @@ import Testcase.HomeTc;
 public class Mini_Selenium {
 
     public static void main(String[] args) throws Exception {
-        HomeTc homeTc = new HomeTc();
-        homeTc.setup();
-        homeTc.CallLogin();
-        homeTc.Testcase2();
+        CreateHSTc createHStc = new CreateHSTc();
+        createHStc.setup();
+        createHStc.CallLogin();
+        createHStc.Testcase1();
     }
 }
