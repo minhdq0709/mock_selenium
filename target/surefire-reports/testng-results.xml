@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-13T10:05:08 ICT" name="Selenium Suite" finished-at="2024-07-13T10:05:52 ICT" duration-ms="43825">
+  <suite started-at="2024-08-25T15:51:51 ICT" name="Selenium Suite" finished-at="2024-08-25T15:52:30 ICT" duration-ms="38287">
     <groups>
     </groups>
-    <test started-at="2024-07-13T10:05:08 ICT" name="Search Tests" finished-at="2024-07-13T10:05:52 ICT" duration-ms="43825">
+    <test started-at="2024-08-25T15:51:51 ICT" name="Search Tests" finished-at="2024-08-25T15:52:30 ICT" duration-ms="38287">
       <class name="Testcase.HomeTc">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.HomeTc@654f0d9c]" started-at="2024-07-13T10:05:08 ICT" name="setup" finished-at="2024-07-13T10:05:10 ICT" duration-ms="2574" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.HomeTc@6a400542]" started-at="2024-08-25T15:51:51 ICT" name="setup" finished-at="2024-08-25T15:51:55 ICT" duration-ms="3106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="CallLogin()[pri:0, instance:Testcase.HomeTc@654f0d9c]" started-at="2024-07-13T10:05:11 ICT" name="CallLogin" finished-at="2024-07-13T10:05:45 ICT" duration-ms="34513" status="PASS">
+        <test-method is-config="true" signature="CallLogin()[pri:0, instance:Testcase.HomeTc@6a400542]" started-at="2024-08-25T15:51:55 ICT" name="CallLogin" finished-at="2024-08-25T15:52:07 ICT" duration-ms="11927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CallLogin -->
-        <test-method signature="Testcase1()[pri:0, instance:Testcase.HomeTc@654f0d9c]" started-at="2024-07-13T10:05:45 ICT" name="Testcase1" finished-at="2024-07-13T10:05:51 ICT" duration-ms="5756" status="PASS">
+        <test-method signature="Testcase1()[pri:0, instance:Testcase.HomeTc@6a400542]" started-at="2024-08-25T15:52:07 ICT" name="Testcase1" finished-at="2024-08-25T15:52:12 ICT" duration-ms="5354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.HomeTc@654f0d9c]" started-at="2024-07-13T10:05:51 ICT" name="tearDown" finished-at="2024-07-13T10:05:52 ICT" duration-ms="902" status="PASS">
+        <test-method is-config="true" signature="CallLogin()[pri:0, instance:Testcase.HomeTc@6a400542]" started-at="2024-08-25T15:52:12 ICT" name="CallLogin" finished-at="2024-08-25T15:52:23 ICT" duration-ms="11293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CallLogin -->
+        <test-method signature="Testcase2()[pri:0, instance:Testcase.HomeTc@6a400542]" started-at="2024-08-25T15:52:23 ICT" name="Testcase2" finished-at="2024-08-25T15:52:29 ICT" duration-ms="6083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.HomeTc@6a400542]" started-at="2024-08-25T15:52:29 ICT" name="tearDown" finished-at="2024-08-25T15:52:30 ICT" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

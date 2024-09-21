@@ -16,6 +16,9 @@ public class Mini_Selenium {
         CreateHSTc createHStc = new CreateHSTc();
         createHStc.setup();
         createHStc.CallLogin();
-        createHStc.Testcase1();
+//        createHStc.TCSaingaysinh();
+//        createHStc.TCSaiCCCD();
+
+        createHStc.TC3();
     }
 }
